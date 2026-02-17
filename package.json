@@ -1,14 +1,14 @@
 {
-  "homepage": "https://70Y1.github.io",
   "name": "capstone-system",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
+  "homepage": "https://70Y1.github.io/kamp-sa-bulod",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
+    "lint": "eslint .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
